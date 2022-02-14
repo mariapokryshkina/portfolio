@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #236747;
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  background-color: whitesmoke;
+  width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h1,
+p {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: coral;
+  border: none;
+  width: 90%;
+  margin: 20px auto;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: limegreen;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+}

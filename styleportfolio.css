@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  padding: 0;
+  margin: 0;
+  font-family: "Michroma", sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+.big {
+  background-image: url("bauhaus.jpeg");
+  width: 100%;
+  height: 800px;
+}
+.small {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: blue;
+  font-family: "Michroma", sans-serif;
+  font-size: 2rem;
+  display: inline;
+}
+
+h2 {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+.box {
+  color: aliceblue;
+}
+
+p {
+  color: black;
+  background-color: white;
+}
+
+.pic:nth-child(2n) {
+  float: left;
+}
+
+.pic {
+  float: right;
+}

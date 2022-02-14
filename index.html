@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main_nav" id="my_main_nav">
+                <div class="logo">
+                    <h1>Maria Pokryshkina</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="https://github.com/mariapokryshkina" target="_blank">GitHub</a></li>
+                        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="hero-banner">
+                <!--<h2>Welcome to my Portfolio</h2> -->
+            </div>
+        </div>
+        <div id="my_container">
+            <div class="herotext" id="my_first">
+                <h2>Welcome to my Portfolio</h2>
+            </div>
+            <div class="herotext" id="second">
+                <h2>Nice to meet you</h2>
+            </div>
+            <div class="herotext" id="third">
+                <h2>Enjoy!</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="projects">
+                <h3>Projects</h3>
+                <div class="content">
+                    <div class="card">
+                        <img src="projects.jpeg" alt="image one">
+                        <h4>Speedgame</h4>
+                        <p>Try out the Speedgame</p>
+                        <a href="https://suspicious-kare-fea86a.netlify.app/"target="_blank">Tap For More</a>
+                    </div>
+                    <div class="card">
+                        <img src="project1.jpeg" alt="image one">
+                        <h4>Rat In The Maze</h4>
+                        <p>Check out the Rat In The Maze game</p>
+                        <a href="https://github.com/mariapokryshkina/ratInTheMaze" target="_blank">Tap For More</a>
+                    </div>
+                    <div class="card">
+                        <img src="project2.jpeg" alt="image one">
+                        <h4>Countries</h4>
+                        <p>Check out the countries app</p>
+                        <a href="https://unruffled-shirley-ce95c5.netlify.app/" target="_blank">Tap For More</a>
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <h3>About Me</h3>
+                <p>My name is Maria and I'm a Full-Stack Web Developer to be. Originally from Russia, I currently live in Helsinki, Finland. I'm a student at BCH and a coding amateur. Feel free to check my school projects!</p>
+                <img src="about_me.jpeg" alt="image two">
+            </section>
+            <section id="skills">
+                <h3>My skills</h3>
+                <div class="content">
+                    <div class="box">
+                        <h5>HTML5</h5>
+                        <img src="html.png" alt="some icon">
+                        <progress id="file" value="80" max="100"> 32% </progress>
+                    </div>
+                    <div class="box">
+                        <h5>CSS3</h5>
+                        <img src="css.png" alt="some icon">
+                        <progress id="file" value="50" max="100"> 32% </progress>
+                    </div>
+                    <div class="box">
+                        <h5>JS</h5>
+                        <img src="js.png" alt="some icon">
+                        <progress id="file" value="30" max="100"> 32% </progress>
+                    </div>
+                    <div class="box">
+                        <h5>React</h5>
+                        <img src="ui.png" alt="some icon">
+                        <progress id="file" value="30" max="100"> 32% </progress>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section id="contact">
+                <h3>Contact me</h3>
+                    <div class="contact-form">
+                        <a href="mailto:maria.pokryshkina@gmail.com" target="_blank">Email</a>
+                        <a href="https://www.linkedin.com/in/maria-pokryshkina-0251214b/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/mariapokryshkina" target="_blank">GitHub</a>
+                    </div>
+           
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
